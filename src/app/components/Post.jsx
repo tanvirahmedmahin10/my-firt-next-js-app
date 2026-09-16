@@ -9,7 +9,7 @@ const Post = ({blog}) => {
     <h2 className="card-title">{title}</h2>
     <p>{description}</p>
     <div className="card-actions justify-end">
-      <Link href={`./blog/${id}`}><button className="btn btn-primary">Show Details</button></Link>
+      <Link href={`/blog/${id}`}><button className="btn btn-primary">Show Details</button></Link>
     </div>
   </div>
 </div>

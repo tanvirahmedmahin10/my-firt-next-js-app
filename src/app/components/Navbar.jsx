@@ -4,11 +4,12 @@ import React from 'react';
 const Navbar = () => {
     const links=<>
     
-    <li><Link href='./about'>About</Link></li>
+    <li><Link href='/about'>About</Link></li>
         
-        <li><Link href="./blog"> Blogs</Link></li>
+        <li><Link href="/blog"> Blogs</Link></li>
 
-        <li><Link href='./docs'>Docs</Link></li>
+        <li><Link href='/docs'>Docs</Link></li>
+        <li><Link href='/users'>Users</Link></li>
     </>
     return (
       <div className="navbar bg-base-100 shadow-sm">

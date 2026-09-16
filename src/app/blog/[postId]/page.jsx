@@ -49,6 +49,7 @@ const blogsData = [
 const page = async ({ params }) => {
      const { postId } = await params
      const post=blogsData.find(blog=>blog.id=== parseInt(postId))
+     
      console.log(typeof postId,post);
     return (
         <div>
@@ -59,7 +60,7 @@ const page = async ({ params }) => {
                <h2> {post.title}</h2>
                <p> {post.category}</p>
                 <h2>{post.author}</h2>
-            </div>:'Bal chirbo amr' 
+            </div>:'' 
             }
         </div>
     );

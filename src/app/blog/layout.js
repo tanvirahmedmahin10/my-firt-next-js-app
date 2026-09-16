@@ -6,6 +6,8 @@ const layout = ({children}) => {
             <h2>Fixed portion of blogs layout</h2>
             
             <div>{children}</div>
+
+            <p>sad life</p>
         </div>
     );
 };
